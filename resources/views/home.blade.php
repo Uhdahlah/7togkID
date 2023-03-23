@@ -6,7 +6,7 @@
         <div class="masthead-content">
             <div class="container">
                 <h1 class="masthead-heading mb-0">7TOGK_ID</h1>
-                <h2 class="masthead-subheading mb-0">SERVER GAME INDONESIA</h2><a class="btn btn-primary btn-xl rounded-pill mt-5" role="button" href="#">PLAY NOW</a></div>
+                <h2 class="masthead-subheading mb-0">SERVER GAME INDONESIA</h2><a class="btn btn-primary btn-xl rounded-pill mt-5" role="button" href="minecraft://?addExternalServer=7TogkSMP%20Revolution|play.7togkmc.id:19132">PLAY NOW</a></div>
         </div>
     </header>
     <section>
