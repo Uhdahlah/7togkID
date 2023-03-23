@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>7TOGK-ID</title>
+    <link rel="icon" src="{{asset('assets')}}/img/icon.ico">
     <meta property="og:type" content="website">
     <meta name="description" content="game server indonesia">
     <link rel="stylesheet" href="{{asset('assets')}}/bootstrap/css/bootstrap.min.css">
