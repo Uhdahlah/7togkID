@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('assets')}}/css/Footer-Dark.css">
     <link rel="stylesheet" href="{{asset('assets')}}/css/Header-Dark.css">
     <link rel="stylesheet" href="{{asset('assets')}}/css/styles.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/Login-Form-Dark.css">
 </head>
 
 <body>
