@@ -10,6 +10,6 @@
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Platform</a>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="{{route('minecraft')}}">minecraft</a><a class="dropdown-item" role="presentation" href="#">mini games(segera hadir)</a><a class="dropdown-item" role="presentation" href="#">Gta-Samp(coming soon)</a></div>
                     </li>
-                </ul><span class="navbar-text">SERVER GAME INDONESIA</span><span class="navbar-text">&nbsp; &nbsp;&nbsp;</span><a href="#"></a><button class="btn btn-primary" type="button">JOIN US</button></div>
+                </ul><span class="navbar-text">SERVER GAME INDONESIA</span><span class="navbar-text">&nbsp; &nbsp;&nbsp;</span><a href="#"></a><button class="btn btn-primary rounded-pill" type="button">JOIN US</button></div>
         </div>
     </nav>

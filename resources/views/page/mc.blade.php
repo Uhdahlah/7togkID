@@ -26,7 +26,7 @@
                         </li>
                         
                     </ul>
-                    </span><a style="opacity: 0;">--</a><a class="btn action-button light-btn" role="button" href="https://minecraftpocket-servers.com/server/111760/vote">Vote Servers</a></div>
+                    </span><a style="opacity: 0;">--</a><a class="btn btn-success rounded-pill" role="button" href="https://minecraftpocket-servers.com/server/111760/vote">Vote Servers</a></div>
             </div>
         </nav>
         <div class="container hero">
@@ -39,7 +39,7 @@
 </h5>
 </br>
 
-<h4 class="text-center card-title" style="color: rgb(243,246,248);"><p class="card-text" style="color: rgb(247,248,248);"></p><a href="minecraft://?addExternalServer=7TogkSMP%20Revolution|play.7togkmc.id:19132" class="btn btn-outline-primary text-uppercase text-center" role="button" target="_blank" style="color: white"><h5>PLAY SERVER</h5></a></h4>
+<h4 class="text-center card-title" style="color: rgb(243,246,248);"><p class="card-text" style="color: rgb(247,248,248);"></p><a href="minecraft://?addExternalServer=7TogkSMP%20Revolution|play.7togkmc.id:19132" class="btn btn-outline-dark text-uppercase text-center" role="button" target="_blank" style="color: white"><h5>PLAY SERVER</h5></a></h4>
                             </div>
                     </div>
                     <!--Comment-->
