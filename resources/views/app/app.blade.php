@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="{{asset('assets')}}/img/icon.ico" type="image/x-icon" />
     <meta property="og:type" content="website">
     <meta name="description" content="game server indonesia">
+    <meta name="author" content="Setya 7Togk">
     <link rel="stylesheet" href="{{asset('assets')}}/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="{{asset('assets')}}/fonts/font-awesome.min.css">
