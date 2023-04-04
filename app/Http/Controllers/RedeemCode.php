@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Redeem;
+use App\Models\coderedeem;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\DB;
 
 class RedeemCode extends Controller
 {
@@ -15,7 +18,14 @@ class RedeemCode extends Controller
      */
     public function index()
     {
-        return view('page.redeem');
+        $Gamertag = Auth::user()->Gamertag;
+        $player = Redeem::where('Gamertag', $Gamertag)->first();
+        if (!$player){
+            return view('page.redeem');
+        } else {
+            return redirect('berhasil');
+        }
+        //return view('page.redeem');
     }
 
     /**
@@ -36,11 +46,19 @@ class RedeemCode extends Controller
      */
     public function ambil(Request $request)
     {
-        $redem = Redeem::create([
-            'Gamertag' => Auth::user()->Gamertag,
-            'Checklist' => False,
-        ]); 
-        return redirect()->back();
+        return view('page.berhasil');
+        // $Gamertag = Auth::user()->Gamertag;
+        // $player = Redeem::where('Gamertag', $Gamertag)->first();
+        // if (!$player){
+        //     $code = $request->input('code');
+        //     $insert = Redeem::create([
+        //         'Gamertag' => $Gamertag,
+        //         'Checklist' => 'false',
+        //     ]);
+        //     return redirect()->back()->withErrors(['msg' => 'Redeem diperoleh silahkan claim di dalam server']);
+        // } else {
+        //     return view('page.berhasil');
+        // }
     }
 
     /**
@@ -51,7 +69,14 @@ class RedeemCode extends Controller
      */
     public function show(Redeem $redeem)
     {
-        //
+        $Gamertag = Auth::user()->Gamertag;
+        $player = Redeem::where('Gamertag', $Gamertag)->first();
+        if (!$player){
+            return redirect('redeem');
+        } else {
+            return view('page.berhasil');
+        }
+        //return view('page.redeem');
     }
 
     /**
@@ -74,7 +99,23 @@ class RedeemCode extends Controller
      */
     public function update(Request $request, Redeem $redeem)
     {
-        //
+        $code = $request->get('code');
+        $Gamertag = Auth::user()->Gamertag;
+        $player = Redeem::where('Gamertag', $Gamertag)->first();
+        if (!$player){
+            $coder = coderedeem::where('code', $code)->first();
+            if ($coder){
+                $insert = Redeem::create([
+                    'Gamertag' => $Gamertag,
+                    'Checklist' => 'false',
+                ]);
+                return redirect('berhasil')->withErrors(['msg' => 'Redeem diperoleh silahkan claim di dalam server']);
+            }else {
+                return redirect()->back()->withErrors(['msg' => 'code reedem salah silahkan ulangi']);
+            }
+        } else {
+            return redirect('berhasil');
+        }
     }
 
     /**

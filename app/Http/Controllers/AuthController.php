@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
@@ -27,7 +28,7 @@ class AuthController extends Controller
         $Gamertag = $request->input('Gamertag');
         $user = User::where('Gamertag', $Gamertag)->first();
         if(!$user){
-            return redirect()->back()->withErrors(['Gamertag', 'gamertag tidak ada, silahkan login ke server dulu lalu ulangi']);
+            return redirect()->back()->withErrors(['alert' => 'gamertag tidak ada, silahkan login ke server dulu lalu ulangi']);
         } else 
         { Auth::login($user);
         return redirect('/redeem'); }

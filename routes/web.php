@@ -29,5 +29,6 @@ Route::get('/minecraft', function () {return view('page.mc');})->name('minecraft
 //auth user only
 Route::middleware('auth')->group(function () {
     Route::get('/redeem', [RedeemCode::class, 'index'])->name('redeem');
-    Route::post('/redeem', [RedeemCode::class, 'ambil']);
+    Route::get('/redem', [RedeemCode::class, 'update'])->name('redem');
+    Route::get('/berhasil', [RedeemCode::class, 'show'])->name('user');
 });
