@@ -74,7 +74,7 @@ class RedeemCode extends Controller
         if (!$player){
             return redirect('redeem');
         } else {
-            return view('page.berhasil');
+            return view('page.sudah');
         }
         //return view('page.redeem');
     }
@@ -109,9 +109,9 @@ class RedeemCode extends Controller
                     'Gamertag' => $Gamertag,
                     'Checklist' => 'false',
                 ]);
-                return redirect('berhasil')->withErrors(['msg' => 'Redeem diperoleh silahkan claim di dalam server']);
+                return view('page.berhasil')->withErrors(['msg' => 'Redeem Berhasil silahkan claim di dalam server']);
             }else {
-                return redirect()->back()->withErrors(['msg' => 'code reedem salah silahkan ulangi']);
+                return redirect()->back()->withErrors(['msg' => 'code reedem salah masukan code yang masih aktif']);
             }
         } else {
             return redirect('berhasil');

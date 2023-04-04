@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h1 class="mb-5">SELAMAT KAMU TELAH MEMECAHKAN CODE!!</h1>
+                    <h1 class="mb-5">Maaf Kamu Telah Menyelesaikan Code Ini</br> silahkan menunggu untuk code berikutnya</h1>
                     @if ($errors->any())
                         <h2 class="mb-5">
                             {{ $errors->first() }}
