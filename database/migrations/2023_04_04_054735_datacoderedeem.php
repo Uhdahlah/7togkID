@@ -14,7 +14,6 @@ return new class extends Migration
     public function up()
     {
         Schema::create('datacoderedeem', function (Blueprint $table) {
-            $table->id();
             $table->string('Gamertag');
             $table->string('Checklist');
             $table->timestamps();
