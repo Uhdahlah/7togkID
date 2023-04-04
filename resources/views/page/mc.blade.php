@@ -16,7 +16,7 @@
                     </form>
                     <span class="navbar-text">
                         <a class="login" href="#"><strong>News</strong></a>
-                        <a class="login" href="#"><strong>Redeem</strong></a>
+                        <a class="login" href="{{route('redeem')}}"><strong>Redeem</strong></a>
                         <a class="login" href="https://mcpedl.org/minecraft-pe-1-19-71-apk/"><strong>Download</strong></a>
                     </span>
                     <span class="navbar-text">
