@@ -109,7 +109,7 @@ class RedeemCode extends Controller
                     'Gamertag' => $Gamertag,
                     'Checklist' => 'false',
                 ]);
-                return view('page.berhasil')->withErrors(['msg' => 'Redeem Berhasil silahkan claim di dalam server']);
+                return view('page.berhasil')->withErrors(['msg' => 'Redeem Berhasil silahkan /redeem di dalam server']);
             }else {
                 return redirect()->back()->withErrors(['msg' => 'code reedem salah masukan code yang masih aktif']);
             }
