@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="login-dark">
-        <form action="{{ route('login') }}" method="post">
+        <form action="/login" method="post">
             @csrf
             {{ @csrf_field() }}
             <h2 class="sr-only">Login Form</h2>

@@ -21,7 +21,7 @@
                     @endif
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form action="{{route('redem')}}" method="GET" >
+                    <form action="/redem" method="GET" >
                         <div class="form-row">
                             <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" name="code" placeholder="Enter your code..." ></div>
                             <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit" style="background-color: rgb(56,56,57);">Redeem</button></div>
