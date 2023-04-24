@@ -23,4 +23,6 @@
 @yield('content')
 @include('app.footer.footer')
 </body>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9350114265727598"
+     crossorigin="anonymous"></script>
 </html>
