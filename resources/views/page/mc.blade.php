@@ -32,7 +32,7 @@
         <div class="container hero">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h1 class="text-center">7TogkSMP Nightmare 3</h1>
+                    <h1 class="text-center">7TogkSMP Nightmare</h1>
                     <h5 class="text-center" style="color: rgb(243,246,248);">
                     Server Survival Multiplayer, Bermain dengan nenek, kakek, dan temen kalian? atau pacarkalian pun, Bisa!!! 7TogkSMP Server Yang Mempunyai Banyak Fitur Dan Sangat Menarik, Silakan Tekan Play Server Untuk Memasuki Server 7TogkSMP
                     
