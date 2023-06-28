@@ -17,7 +17,7 @@
                     <span class="navbar-text">
                         <a class="login" href="#"><strong>News</strong></a>
                         <a class="login" href="{{route('redeem')}}"><strong>Redeem</strong></a>
-                        <a class="login" href="https://mcpedl.org/minecraft-pe-1-19-80-apk/"><strong>Download</strong></a>
+                        <a class="login" href="https://mcpedl.org/minecraft-pe-1-20-0s-apk/"><strong>Download</strong></a>
                     </span>
                     <span class="navbar-text">
                     <ul class="nav navbar-nav">
@@ -32,14 +32,14 @@
         <div class="container hero">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h1 class="text-center">7TogkSMP Revolution 3</h1>
+                    <h1 class="text-center">7TogkSMP Nightmare 3</h1>
                     <h5 class="text-center" style="color: rgb(243,246,248);">
                     Server Survival Multiplayer, Bermain dengan nenek, kakek, dan temen kalian? atau pacarkalian pun, Bisa!!! 7TogkSMP Server Yang Mempunyai Banyak Fitur Dan Sangat Menarik, Silakan Tekan Play Server Untuk Memasuki Server 7TogkSMP
                     
 </h5>
 </br>
 
-<h4 class="text-center card-title" style="color: rgb(243,246,248);"><p class="card-text" style="color: rgb(247,248,248);"></p><a href="minecraft://?addExternalServer=7TogkSMP%20Revolution|play.7togkmc.id:19132" class="btn btn-outline-dark text-uppercase text-center" role="button" target="_blank" style="color: white"><h5>PLAY SERVER</h5></a></h4>
+<h4 class="text-center card-title" style="color: rgb(243,246,248);"><p class="card-text" style="color: rgb(247,248,248);"></p><a href="minecraft://?addExternalServer=7TogkSMP%20Nightmare|play.7togkmc.id:19132" class="btn btn-outline-dark text-uppercase text-center" role="button" target="_blank" style="color: white"><h5>PLAY SERVER</h5></a></h4>
                             </div>
                     </div>
                     <!--Comment-->
